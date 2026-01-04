@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="thanda">
+      <!-- change em to a link tree typa stuff idk -->
+
+
+
+
+                    <div class="parent">
+                    
+
+                      <div class="social-links">
+                            <a href="channel ondo myre ninak ayin " target="_blank"><img src="images/youtube.png" alt="youtube" height="30px" width="30px"></a> <br>
+                            <a href="https://www.instagram.com/parthasarathyyyyy/" target="_blank"> <img src="images/ig.png" alt="instagram " height="30px" width="30px"></a><br>
+                            <a href="https://github.com/parthasarath-y" target="_blank"><img src="images/git.png" alt="GitHub" height="30px" width="30px"  ></a>
+                      </div>
+
+            
+
+
+                          <div class="mains">
+
+                              <img src="images/avatar.png" alt="profile" class="avatar">
+                              <h1>Parth</h1>
+                              <p class="tagline">Student | Aspiring Developer | Building cool stuff (well i try ;-;)</p>
+                          
+
+
+
+                          <h2 style="text-align: left;">About Me</h2>
+                              <p style="max-width:700px;margin:0 auto;font-size:1.1rem;">
+                            
+                                I love turning ideas into real projects ,from web apps to most niche random stuff you can think of  
+                                .
+                                <br> Better call Parth *wink* *wink*</p>
+                                
+                              <p style="max-width:700px;margin:0 auto;font-size:1.1rem ;padding-top:30px;">
+
+                                Currently learning whatever you're into haha, and always working on side projects. Always. no stark i dont have Galaga open 
+                              </p>
+
+   
+                       
+                              </div>
+
+                              
+                    
+
+             
+
+
+
+              </div>
+
+                    <div class="about">
+                    <h2>why a portfolio ? </h2>
+
+                      <!--make it look like a chat , update the profiles-->
+
+                    <p style="text-align: left ; padding-left: 20px; ">
+                    <img src="images/pepe_question.jpg" alt="nalla manushan " height="30px" width="30px">
+                      : link tree vallathum ondakiya poraruno?</p>
+                    
+                    
+
+                         <p style="text-align: right;  display: block;">well...<img src="images/i think.png" alt="image load avum fs " height="50px" width="50px "></p>
+
+
+                     <!--end chat -->
+                     
+                     
+                         <!--a pop up button with thoes nalla chodiyam and adutha chodiya stuff -->
+
+                      <!--  Button -->
+                        
+                        <button class="open-modal-btn">
+
+                          <img src="images/nalla chodiyam.png" alt="varum varum fs"  width="200px">
+
+
+                        </button>
+
+                        <!--  Popup -->
+                        <div class="modal-overlay" id="modal">
+                          <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <h2>Valare nalla chodiyam</h2>
+                            <p>
+                            prolly to dump all that ive learned into one single project and idk i might extend / modify or whater in  future.
+                            <br><br>and chatgpt said it'll be nice to make one , its all on him 
+                            <br><br><img src="images/gpt.png" alt="angry chatgpt" height="70px" width="70px">
+
+                              :NO I DID'NT??
+
+                            </p>
+                          </div>
+                        </div>
+
+
+                     
+
+        </div><!--parent div -->
+
+</div>    <!--thanda div closing-->   
+
+  <div class="projects">
+    <h2>My Side Projects</h2>
+    <div class="folders">
+      <div class="folder" onclick="toggleProjects('web')">
+        <div class="folder-icon">📁</div>
+        <p>Web Projects</p>
+      </div>
+      <div class="folder" onclick="toggleProjects('experiments')">
+        <div class="folder-icon">📁</div>
+        <p>fuck around and find out i guess</p>
+      </div>
+      <div class="folder" onclick="toggleProjects('learning')">
+        <div class="folder-icon">📁</div>
+        <p>Learning Stuff</p>
+      </div>
+    </div>
+
+    <div id="web-projects" class="project-grid">
+      <!-- Add your projects here -->
+      <div class="project-card">
+        <h3>Project One | TakeAprinT</h3>
+        <p>Basically a website for uni , taking a print here is a real mess . what about uplaoding it and going there to only collect your stuff, well that was the idea never really worked on it further tho.....last time i ever thought of it is when Noel coied the name "TakeAprinT" (initally it was Eprint,) Sean Parker kinda stuff he was pulling that day </th>
+</p>
+        <a href="https://parthasarath-y.github.io/test/" target="_blank">Live Demo</a> | <a href="https://github.com/parthasarath-y/test" target="_blank">GitHub</a>
+
+           <h3>Project Two | flames</h3>
+        <p>the name is self explanatory .Started of as a joke , though got like 200 off donations yayy ig .</p>
+
+         <a href="https://parthasarath-y.github.io/flames/" target="_blank">Live Demo</a> | <a href="https://github.com/parthasarath-y/flames" target="_blank">GitHub</a>
+
+
+      </div>
+      <!-- More cards... -->
+    </div>
+
+    <div id="experiments-projects" class="project-grid">
+      <div class="project-card">
+        <h3></h3>
+        <p>the flames project but in python</p>
+        <p>originally the whole <a href="https://github.com/parthasarath-y/flames" target="_blank"> "flames" (click for context) </a> thing was made in JS but then again how tf am i supposed hand it in for a python project...</p>
+         <a href="https://github.com/parthasarath-y/python-project" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div id="learning-projects" class="project-grid">
+      <div class="project-card">
+        <h3></h3>
+        <p>i took so and so courses idk ill write something here later</p>
+      </div>
+    </div>
+  </div>
+
+  <!--<footer>
+    <p></p>
+    <div class="social-links">
+      <a href="https://youtube.com/@yourchannel" target="_blank">YouTube</a> |
+      <a href="https://instagram.com/yourusername" target="_blank">Instagram</a> |
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </footer>-->
+
+<!--not really sure about the footer thing-->
+<script src="script.js" ></script>
+</body>
+</html>

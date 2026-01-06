@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  function toggleProjects(id) {
       const grids = document.querySelectorAll('.project-grid');
       grids.forEach(g => g.style.display = 'none');
